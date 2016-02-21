@@ -14,6 +14,8 @@
 		FAF2A35D1C79C22400FE6AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF2A35B1C79C22400FE6AD8 /* LaunchScreen.storyboard */; };
 		FAF2A3681C79C22400FE6AD8 /* sgumusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2A3671C79C22400FE6AD8 /* sgumusTests.swift */; };
 		FAF2A3731C79C22400FE6AD8 /* sgumusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2A3721C79C22400FE6AD8 /* sgumusUITests.swift */; };
+		FAF2A3811C79D85900FE6AD8 /* SeconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2A3801C79D85900FE6AD8 /* SeconViewController.swift */; };
+		FAF2A3831C79DB4800FE6AD8 /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF2A3821C79DB4800FE6AD8 /* icon3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FAF2A36E1C79C22400FE6AD8 /* sgumusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sgumusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF2A3721C79C22400FE6AD8 /* sgumusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sgumusUITests.swift; sourceTree = "<group>"; };
 		FAF2A3741C79C22400FE6AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF2A3801C79D85900FE6AD8 /* SeconViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeconViewController.swift; sourceTree = "<group>"; };
+		FAF2A3821C79DB4800FE6AD8 /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon3.png; path = ../../../../icon3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 				FAF2A3541C79C22400FE6AD8 /* ViewController.swift */,
 				FAF2A3561C79C22400FE6AD8 /* Main.storyboard */,
 				FAF2A3591C79C22400FE6AD8 /* Assets.xcassets */,
+				FAF2A3821C79DB4800FE6AD8 /* icon3.png */,
 				FAF2A35B1C79C22400FE6AD8 /* LaunchScreen.storyboard */,
 				FAF2A35E1C79C22400FE6AD8 /* Info.plist */,
+				FAF2A3801C79D85900FE6AD8 /* SeconViewController.swift */,
 			);
 			path = sgumus;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF2A3831C79DB4800FE6AD8 /* icon3.png in Resources */,
 				FAF2A35D1C79C22400FE6AD8 /* LaunchScreen.storyboard in Resources */,
 				FAF2A35A1C79C22400FE6AD8 /* Assets.xcassets in Resources */,
 				FAF2A3581C79C22400FE6AD8 /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF2A3811C79D85900FE6AD8 /* SeconViewController.swift in Sources */,
 				FAF2A3551C79C22400FE6AD8 /* ViewController.swift in Sources */,
 				FAF2A3531C79C22400FE6AD8 /* AppDelegate.swift in Sources */,
 			);
@@ -485,6 +493,7 @@
 				FAF2A3791C79C22400FE6AD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAF2A37A1C79C22400FE6AD8 /* Build configuration list for PBXNativeTarget "sgumusTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				FAF2A37C1C79C22400FE6AD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAF2A37D1C79C22400FE6AD8 /* Build configuration list for PBXNativeTarget "sgumusUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				FAF2A37F1C79C22400FE6AD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
