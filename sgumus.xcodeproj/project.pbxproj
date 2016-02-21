@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF2A3531C79C22400FE6AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2A3521C79C22400FE6AD8 /* AppDelegate.swift */; };
+		FAF2A3551C79C22400FE6AD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2A3541C79C22400FE6AD8 /* ViewController.swift */; };
+		FAF2A3581C79C22400FE6AD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF2A3561C79C22400FE6AD8 /* Main.storyboard */; };
+		FAF2A35A1C79C22400FE6AD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF2A3591C79C22400FE6AD8 /* Assets.xcassets */; };
+		FAF2A35D1C79C22400FE6AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF2A35B1C79C22400FE6AD8 /* LaunchScreen.storyboard */; };
+		FAF2A3681C79C22400FE6AD8 /* sgumusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2A3671C79C22400FE6AD8 /* sgumusTests.swift */; };
+		FAF2A3731C79C22400FE6AD8 /* sgumusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2A3721C79C22400FE6AD8 /* sgumusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF2A3641C79C22400FE6AD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF2A3471C79C22400FE6AD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF2A34E1C79C22400FE6AD8;
+			remoteInfo = sgumus;
+		};
+		FAF2A36F1C79C22400FE6AD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF2A3471C79C22400FE6AD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF2A34E1C79C22400FE6AD8;
+			remoteInfo = sgumus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF2A34F1C79C22400FE6AD8 /* sgumus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sgumus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF2A3521C79C22400FE6AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF2A3541C79C22400FE6AD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF2A3571C79C22400FE6AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF2A3591C79C22400FE6AD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF2A35C1C79C22400FE6AD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF2A35E1C79C22400FE6AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF2A3631C79C22400FE6AD8 /* sgumusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sgumusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF2A3671C79C22400FE6AD8 /* sgumusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sgumusTests.swift; sourceTree = "<group>"; };
+		FAF2A3691C79C22400FE6AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF2A36E1C79C22400FE6AD8 /* sgumusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sgumusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF2A3721C79C22400FE6AD8 /* sgumusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sgumusUITests.swift; sourceTree = "<group>"; };
+		FAF2A3741C79C22400FE6AD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF2A34C1C79C22400FE6AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2A3601C79C22400FE6AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2A36B1C79C22400FE6AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF2A3461C79C22400FE6AD8 = {
+			isa = PBXGroup;
+			children = (
+				FAF2A3511C79C22400FE6AD8 /* sgumus */,
+				FAF2A3661C79C22400FE6AD8 /* sgumusTests */,
+				FAF2A3711C79C22400FE6AD8 /* sgumusUITests */,
+				FAF2A3501C79C22400FE6AD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF2A3501C79C22400FE6AD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2A34F1C79C22400FE6AD8 /* sgumus.app */,
+				FAF2A3631C79C22400FE6AD8 /* sgumusTests.xctest */,
+				FAF2A36E1C79C22400FE6AD8 /* sgumusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF2A3511C79C22400FE6AD8 /* sgumus */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2A3521C79C22400FE6AD8 /* AppDelegate.swift */,
+				FAF2A3541C79C22400FE6AD8 /* ViewController.swift */,
+				FAF2A3561C79C22400FE6AD8 /* Main.storyboard */,
+				FAF2A3591C79C22400FE6AD8 /* Assets.xcassets */,
+				FAF2A35B1C79C22400FE6AD8 /* LaunchScreen.storyboard */,
+				FAF2A35E1C79C22400FE6AD8 /* Info.plist */,
+			);
+			path = sgumus;
+			sourceTree = "<group>";
+		};
+		FAF2A3661C79C22400FE6AD8 /* sgumusTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2A3671C79C22400FE6AD8 /* sgumusTests.swift */,
+				FAF2A3691C79C22400FE6AD8 /* Info.plist */,
+			);
+			path = sgumusTests;
+			sourceTree = "<group>";
+		};
+		FAF2A3711C79C22400FE6AD8 /* sgumusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2A3721C79C22400FE6AD8 /* sgumusUITests.swift */,
+				FAF2A3741C79C22400FE6AD8 /* Info.plist */,
+			);
+			path = sgumusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF2A34E1C79C22400FE6AD8 /* sgumus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF2A3771C79C22400FE6AD8 /* Build configuration list for PBXNativeTarget "sgumus" */;
+			buildPhases = (
+				FAF2A34B1C79C22400FE6AD8 /* Sources */,
+				FAF2A34C1C79C22400FE6AD8 /* Frameworks */,
+				FAF2A34D1C79C22400FE6AD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sgumus;
+			productName = sgumus;
+			productReference = FAF2A34F1C79C22400FE6AD8 /* sgumus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF2A3621C79C22400FE6AD8 /* sgumusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF2A37A1C79C22400FE6AD8 /* Build configuration list for PBXNativeTarget "sgumusTests" */;
+			buildPhases = (
+				FAF2A35F1C79C22400FE6AD8 /* Sources */,
+				FAF2A3601C79C22400FE6AD8 /* Frameworks */,
+				FAF2A3611C79C22400FE6AD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF2A3651C79C22400FE6AD8 /* PBXTargetDependency */,
+			);
+			name = sgumusTests;
+			productName = sgumusTests;
+			productReference = FAF2A3631C79C22400FE6AD8 /* sgumusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF2A36D1C79C22400FE6AD8 /* sgumusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF2A37D1C79C22400FE6AD8 /* Build configuration list for PBXNativeTarget "sgumusUITests" */;
+			buildPhases = (
+				FAF2A36A1C79C22400FE6AD8 /* Sources */,
+				FAF2A36B1C79C22400FE6AD8 /* Frameworks */,
+				FAF2A36C1C79C22400FE6AD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF2A3701C79C22400FE6AD8 /* PBXTargetDependency */,
+			);
+			name = sgumusUITests;
+			productName = sgumusUITests;
+			productReference = FAF2A36E1C79C22400FE6AD8 /* sgumusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF2A3471C79C22400FE6AD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = firstexample;
+				TargetAttributes = {
+					FAF2A34E1C79C22400FE6AD8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2R3UAAJ4GL;
+					};
+					FAF2A3621C79C22400FE6AD8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2R3UAAJ4GL;
+						TestTargetID = FAF2A34E1C79C22400FE6AD8;
+					};
+					FAF2A36D1C79C22400FE6AD8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2R3UAAJ4GL;
+						TestTargetID = FAF2A34E1C79C22400FE6AD8;
+					};
+				};
+			};
+			buildConfigurationList = FAF2A34A1C79C22400FE6AD8 /* Build configuration list for PBXProject "sgumus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF2A3461C79C22400FE6AD8;
+			productRefGroup = FAF2A3501C79C22400FE6AD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF2A34E1C79C22400FE6AD8 /* sgumus */,
+				FAF2A3621C79C22400FE6AD8 /* sgumusTests */,
+				FAF2A36D1C79C22400FE6AD8 /* sgumusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF2A34D1C79C22400FE6AD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2A35D1C79C22400FE6AD8 /* LaunchScreen.storyboard in Resources */,
+				FAF2A35A1C79C22400FE6AD8 /* Assets.xcassets in Resources */,
+				FAF2A3581C79C22400FE6AD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2A3611C79C22400FE6AD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2A36C1C79C22400FE6AD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF2A34B1C79C22400FE6AD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2A3551C79C22400FE6AD8 /* ViewController.swift in Sources */,
+				FAF2A3531C79C22400FE6AD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2A35F1C79C22400FE6AD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2A3681C79C22400FE6AD8 /* sgumusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF2A36A1C79C22400FE6AD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF2A3731C79C22400FE6AD8 /* sgumusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF2A3651C79C22400FE6AD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF2A34E1C79C22400FE6AD8 /* sgumus */;
+			targetProxy = FAF2A3641C79C22400FE6AD8 /* PBXContainerItemProxy */;
+		};
+		FAF2A3701C79C22400FE6AD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF2A34E1C79C22400FE6AD8 /* sgumus */;
+			targetProxy = FAF2A36F1C79C22400FE6AD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF2A3561C79C22400FE6AD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF2A3571C79C22400FE6AD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF2A35B1C79C22400FE6AD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF2A35C1C79C22400FE6AD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF2A3751C79C22400FE6AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF2A3761C79C22400FE6AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF2A3781C79C22400FE6AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sgumus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gumus.sgumus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF2A3791C79C22400FE6AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sgumus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gumus.sgumus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAF2A37B1C79C22400FE6AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sgumusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gumus.sgumusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sgumus.app/sgumus";
+			};
+			name = Debug;
+		};
+		FAF2A37C1C79C22400FE6AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sgumusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gumus.sgumusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sgumus.app/sgumus";
+			};
+			name = Release;
+		};
+		FAF2A37E1C79C22400FE6AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sgumusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gumus.sgumusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sgumus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAF2A37F1C79C22400FE6AD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sgumusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gumus.sgumusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sgumus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF2A34A1C79C22400FE6AD8 /* Build configuration list for PBXProject "sgumus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2A3751C79C22400FE6AD8 /* Debug */,
+				FAF2A3761C79C22400FE6AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF2A3771C79C22400FE6AD8 /* Build configuration list for PBXNativeTarget "sgumus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2A3781C79C22400FE6AD8 /* Debug */,
+				FAF2A3791C79C22400FE6AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF2A37A1C79C22400FE6AD8 /* Build configuration list for PBXNativeTarget "sgumusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2A37B1C79C22400FE6AD8 /* Debug */,
+				FAF2A37C1C79C22400FE6AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF2A37D1C79C22400FE6AD8 /* Build configuration list for PBXNativeTarget "sgumusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF2A37E1C79C22400FE6AD8 /* Debug */,
+				FAF2A37F1C79C22400FE6AD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF2A3471C79C22400FE6AD8 /* Project object */;
+}
